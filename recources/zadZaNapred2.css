@@ -1,0 +1,246 @@
+.body{
+    margin: 5px 10px 15px 20px;
+    padding: 30px 40px 70px 40px; 
+    background-color: #d8f2e0;
+}
+
+.background{
+    background-color:#d8f2e0;
+    width: 1000px;
+    height:1000px
+}
+.upperHearder{
+    width: 950px;
+    height: 80px;
+}
+.upperNavBar {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;          
+    text-decoration: none;
+    font-size:17px;
+    background-color: white;
+    text-decoration: none;
+    color:#a5a5a5;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.upperNavBar .ul{
+    margin-right: 40px;
+}
+.upperNavBarForm{
+    display:flex;
+    gap: 25px;
+    margin-left:60px;
+    font-family:Arial, Helvetica, sans-serif;
+    height:3cqh;
+
+}
+.inputField{
+    border-color:  #e9e9d9;
+    border-radius: 0px;
+    height: 25px;
+    margin-bottom:10px;
+    margin-top:-10px;
+}
+.upperNavBarButton{
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    font-size:12px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #e56100;
+    border-color: transparent;
+    text-align: center;
+    height:20px;
+    width: 60px;
+    text-align: center;
+    margin-top:-5px;
+}
+.mainHeader{
+    color: #76a0b0;
+    font-size: 72px;
+    font-weight: normal;
+    margin-left:13px;
+}
+
+.belowHeader {
+    background-color: white;
+    height: 35px;
+    width: 335px;
+    font-size: 24px;
+    color: #9c9c9c;
+    margin-left: 13px;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -30px;
+    border: 1px solid #cfcf9bbe; /* Apply the border directly */
+}
+
+.belowHeader p{
+    margin-bottom: 30px;
+    margin-top: 2px;
+    margin-left:10px;
+}
+
+.navBar2{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;          
+    text-decoration: none;
+    font-size:17px;
+    background-color: #887a68;
+    text-decoration: none;
+    color:#a5a5a5;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 947px;
+    margin-left:13px;
+}
+.navBar2 .ul2{
+    margin-right: 20px;
+    padding-left:0px;
+    
+}
+.a2{
+    text-decoration: none;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+.leftColumn{
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    margin-left:13px;
+    
+
+}
+
+.leftSectionHeader{
+    display:inline-block;
+    color:rgb(249, 97, 97);
+    font-size: 24px;
+    margin-left:40px;
+    font-weight: normal;
+}
+.pipe{
+    color:#a5a5a5;
+}
+
+.date{
+    color:#76a0b0;
+}
+
+.leftInnerDiv{
+    width:630px;
+    height:250px;
+    background-color: #d8f2e0;
+    margin-left:40px;
+}
+
+.img{
+    margin-top:20px;
+    margin-left:17px;
+}
+
+.buttonLeft1{
+    border-radius: 0px;
+    color: white;
+    background-color: #76a0b0;
+    border-width: 0px;
+    height: 25px;
+    margin-left:17px;
+    margin-top:6px;
+    cursor: pointer;
+}
+
+.buttonLeft2{
+    border-radius: 0px;
+    color: white;
+    background-color: #76a0b0;
+    border-width: 0px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.lastPar{
+    width:630px;
+    height:250px;
+    margin-left:40px;
+}
+
+.rightColumn{
+    width: 250px;
+    height: 500px;
+    background-color:  #f5f5eb;
+    margin-right:40px;
+    border: 0.5px solid #887a6846;
+}
+.rightButton{
+    border-radius: 0px;
+    color: white;
+    background-color: #568e76;
+    border-width: 0px;
+    margin-top:20px;
+    height: 25px;
+    cursor: pointer;
+    width:80px;
+    margin-left:20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.p2{
+    margin-left:10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #887a68;
+}
+.downDiv{
+    width: 250px;
+    height: 217px;
+    background-color:#efefc1;
+    margin-top: 75px;
+}
+
+.divInDiv{
+    position: relative;
+    width:220px;
+    height:80px;
+    background-color:  #f5f5eb;
+    margin-left:15px;
+    top:20px;
+}
+
+.divInDiv2{
+    position: relative;
+    width:220px;
+    height:80px;
+    background-color:  #f5f5eb;
+    margin-left:15px;
+    top:35px;
+}
+
+
+/*без да проверя намяше да се сетя как става*/
+.upperNavBar a {
+    text-decoration: none; /* removes default underline */
+    position: relative; 
+    color: #a5a5a5; 
+}
+
+.upperNavBar a:hover::before {
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 3px; 
+    background-color: #e56100; 
+    bottom: -20px; 
+    left: 0; 
+}
+
+
