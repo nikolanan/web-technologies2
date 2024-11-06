@@ -1,0 +1,259 @@
+body{
+    font-family: Arial, sans-serif;
+}
+.head{
+    display: flex;
+    flex-direction: row;
+    margin-left:62px;
+    margin-bottom:20px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap:5px;
+}
+
+.menu li{
+    background-color:white;
+    box-shadow: 0px 8px 6px -6px rgba(0, 0, 0, 0.7);
+    padding-bottom:10px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:14px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: 2px solid #770000;
+}
+.menu li:last-of-type{
+    color:#770000;
+}
+
+.main-section{
+    width: 1170px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-bar{
+    background-color: #DADADA;
+    width:190px;
+    height:700px;
+    display: flex;
+    box-sizing: border-box;
+    /* justify-content: center; */
+    flex-direction: column;
+    
+}
+
+.para{
+    margin-top:2px;
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    margin-left:15px;
+}
+.left-bar .para p {
+    display: inline;
+    font-size:12px ;
+    color:#656565;
+    font-weight: 600;
+    margin:0;
+}
+.left-bar img{
+    margin-left:70px;
+    display: inline-block;
+    margin-top:10px;
+    width:164px;
+    height: 230px;
+    margin-left:13px;
+    border-color: black;
+    border: 3px solid;
+}
+.left-section-first{
+    display: flex;
+    flex-direction: column;
+    gap:1px;
+    justify-content: center;
+    text-align: center;
+    width:164px;
+    margin-left:13px;
+    color:#656565;
+    font-weight: 600;
+    font-size: 14px;
+    
+}
+.issue{
+    background-color:  #F4F4F4;
+}
+.numbers{
+    background-color:  #F4F4F4;
+    color:#770000;
+}
+
+.p1{
+    color:#770000;
+    margin-bottom:2px;
+}
+
+.left-section-second{
+    display: flex;
+    flex-direction: column;
+    gap:2px;
+    width:164px;
+    margin-left:13px;
+    margin-top:2px;
+    text-align: center;
+    color:#656565;
+    font-weight: 600;
+    font-size: 14px;
+}
+.y2018{
+    background-color: #F4F4F4;
+}
+.y2017{
+    background-color: #F4F4F4;
+}
+.y2016{
+    background-color: #F4F4F4;
+}
+
+.content{
+    width: 770px;
+    border:2px solid #DADADA;
+    height: 750px;
+    display: flex;
+    flex-direction: row;
+    gap:12px;
+    font-size:14px;
+    margin-left:12px;
+}
+
+.names{
+    display: flex;
+    flex-direction: column;
+    width:70%;
+    padding-left:0;
+    margin-left:10px;
+    gap:9px;
+    margin-top:5px;
+    color: #656565;
+}
+
+
+.names div p:last-of-type{
+    color:#770000;
+    font-weight: bold;
+}
+
+.close{
+    display: flex;
+    flex-direction: column;
+    gap:3px;
+}
+.close p{
+    margin:0;
+}
+
+.apart{
+    display: flex;
+    flex-direction: column;
+    gap:4px;
+}
+
+.last-p{
+    margin-top:110px;
+}
+
+.description{
+    margin-top:5px;
+    margin-left: 12px;;
+    color: #656565;
+    display: flex;
+    flex-direction: column;
+    /* gap:48px; */
+}
+.description p {
+    margin:0;
+}
+
+.description p:nth-of-type(2){
+    margin-top: 43px;;
+}
+.description p:nth-of-type(3){
+    margin-top: 68px;;
+}
+.description p:nth-of-type(4){
+    margin-top: 54px;;
+}
+.description p:nth-of-type(5){
+    margin-top: 44px;;
+}
+.description p:nth-of-type(6){
+    margin-top: 69px;;
+}
+.description p:nth-of-type(6){
+    margin-top: 69px;;
+}
+.description p:nth-of-type(7){
+    margin-top: 55px;;
+}
+.description p:nth-of-type(8){
+    margin-top: 43px;;
+}
+
+.right-bar{
+    margin-left:10px;
+    background-color: #F4F4F4;
+    width:190px;
+    height: 570px;;
+    display: flex;
+    flex-direction: column;
+    justify-content:left;
+    font-size:11.2px;
+}
+.right-bar img{
+    display: inline-block;
+    margin-top:10px;
+    width:161px;
+    height: 161px;
+    margin-left:13px;
+    border-color: black;
+    border: 3px solid;
+}
+
+.article{
+    margin-top:30px
+}
+
+.article li{
+    color: #770000;
+
+}
+.article p {
+    text-align: center;
+    font-weight: bold;
+}
+
+.contacts{
+    margin-top:30px;
+}
+.contacts p:first-of-type{
+    text-align: center;
+    font-weight: bold;
+}
+
+.contacts p{
+    color:#656565;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.contacts p:nth-of-type(3){
+    margin-top: 0px;;
+    padding-top:0px;
+}
