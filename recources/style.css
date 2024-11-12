@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Whitney';
+    src:url('fonts/WhitneyHTF-Book.otf'),
+        url('fonts/Whitney-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html, body {
+    font-family:'Whitney';
+    direction: ltr;
+    height:100%;
+    
+}
